@@ -12,7 +12,7 @@ b. 或者直接找到Application run man方法。
 每天早上8点（可配置），会收到一封邮件，告知档案有没有到达。效果如下：
 
 到档
-![Alt text](./images/到档.jpg?raw=true "到档")
+![到档](https://user-images.githubusercontent.com/7733506/135424864-bc0f4350-43de-4402-9ddd-06bf5a24ec38.jpg)
 
 未到档
-![Alt text](./images/未到档.jpg?raw=true "到档")
+![未到档](https://user-images.githubusercontent.com/7733506/135424888-9033dce7-f64c-440a-b598-c1c14ad63e4c.jpg)
