@@ -1,0 +1,14 @@
+server:
+  username: #邮箱用登录用户名
+  password: #邮箱支持smtp的授权码
+  host: smtp.163.com #smtp host(可以换其他邮箱)
+  port: 25 #smtp端口
+email:
+  sender: #发件人邮箱
+  receiver: #收件人邮箱
+  postUrl: http://weixin.shrc.com.cn:8181/searchArchives
+  name: #用户名
+  idCard: #身份证号
+  titleFailed: 人事档案未到档通知 #没收到人事档案标题
+  title: 人事档案到档通知 #收到人事档案标题
+  content: 您好，<br/> 您的人事档案已经到达上海，请及时到网上查询：<br/> http://weixin.shrc.com.cn:8080/index.html?state=woyaochaxun&from=singlemessage&isappinstalled=0#/search/archives_search
