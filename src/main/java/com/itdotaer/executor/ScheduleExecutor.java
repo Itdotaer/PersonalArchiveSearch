@@ -45,8 +45,6 @@ public class ScheduleExecutor {
             props.put("sender", emailConfig.getSender());
             props.put("receivers", emailConfig.getReceiver());
 
-            notifier.notice(emailConfig.getTitle(), emailConfig.getContent(), props);
-
             if (Objects.isNull(personalArchive) || Objects.isNull(personalArchive.get档案号())) {
                 notifier.notice(emailConfig.getTitleFailed(), JacksonHelper.toJson(personalArchive), props);
                 return;
